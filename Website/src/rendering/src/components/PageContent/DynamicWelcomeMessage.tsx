@@ -31,7 +31,7 @@ const DynamicWelcomeMessage = (): JSX.Element => {
       </div>
     </section>
   );
-  //return <>{messageContent}</>;
+  return <>{messageContent}</>;
 };
 
 export default DynamicWelcomeMessage;
