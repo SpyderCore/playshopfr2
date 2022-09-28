@@ -25,7 +25,7 @@ const DynamicWelcomeMessage = (): JSX.Element => {
   }, [router.locale]);
 
   const messageContent = message && (
-    <section className="section dynamic-welcome-message">
+    <section id="welcome-message-cdp" className="section dynamic-welcome-message">
       <div className="section-content container message-banner">
         <span>{message}</span>
       </div>
